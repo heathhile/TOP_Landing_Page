@@ -5,7 +5,9 @@
     --buttonColor: #3882f6;
     --quoteBGColor: #e5e7eb;
 }
-* {
+*,
+::before,
+::after {
     box-sizing: border-box;
 }
 
@@ -26,21 +28,33 @@ footer {
 header {
     color: #f9FaF8;
     width: 100%;
-    border: solid yellow;
-    padding: 8px;
+    /* border: solid yellow; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    padding: 1rem;
+    
 }
 
 .headerLogo {
+    /* border: solid red; */
     font-size: 24px;
+    flex: 1.1;
+    text-align: right;
+    
 }   
 
+.spacer{
+    /* border: solid purple; */
+    flex: 1;
+}
+
 .headerLinks {
+    /* border: solid green; */
     font-size: 18px;
     gap: 30px;
     display: flex;
+    flex: 2;
+    font-weight: lighter;
 }
 
 a:link,
@@ -53,19 +67,38 @@ a:active {
 }
 
 .section1 {
+    padding: 5em 0 5em 0;
     display: flex;
-    border: solid orange 5px;
+    /* border: solid orange 5px; */
     background-color: var(--darkBackground);
+    justify-content: center;
+    gap: 70px;
 }
 
 .awesome {
     font-size: 48px;
     color: #f9FaF8;
     font-weight: 900;
+    border: solid red;
+    width: 35%;
+}
+
+.section1img {
+    height: auto;
+    display: block;
 }
 
 .subAwesome {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 20px;
 }
 
+.button {
+    background-color: var(--buttonColor);
+    color: #e5e7eb;
+    display: block;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border: 0;
+}
