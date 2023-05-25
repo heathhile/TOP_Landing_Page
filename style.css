@@ -123,13 +123,33 @@ a:active {
 /* End Section 1 */
 
 .section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    border: solid red;
+    text-align: center;
 
 }
 
+.sub_section2 {
+    border: solid green;
+    display: flex;
+    padding: 50px;
+}
+
+.sub_section2 figure {
+    display: table;
+}
+
+.sub_section2 figcaption {
+    display: table-caption;
+    caption-side: bottom;
+}
+
 .s2-image img {
-    width: 100px;
+    width: 200px;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+
+.s2-image img:hover {
+    transform: scale(1.5);
+
 }
