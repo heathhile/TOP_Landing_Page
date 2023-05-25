@@ -29,24 +29,25 @@ footer {
 header {
     color: #f9FaF8;
     width: 100%;
-    border: solid yellow;
+    /* border: solid yellow; */
     display: flex;
+    padding: 20px;
 }
 
 .headerLogo {
-    border: solid red;
-    text-align: center;
+    /* border: solid red; */
     font-size: 24px;
     flex: 1;
-    /* margin: auto; */
     font-family: var(--fontFamily);
     font-weight: bold;
-    align-items: center;
+    display: block;
+    margin: auto;
+    text-align: center;
+
 }
 
-
 .headerLinks {
-    border: solid green;
+    /* border: solid green; */
     font-size: 18px;
     flex: 1;
     margin: auto;
@@ -65,8 +66,10 @@ a:active {
     cursor: pointer;
 }
 
-
 /* End Header */
+
+
+/* Start section 1 */
 
 .section1 {
     background-color: var(--darkBackground);
@@ -75,7 +78,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px
+    padding-bottom: 50px;
 }
 
 .awesome {
@@ -115,4 +118,18 @@ a:active {
     border-radius: 8px;
     border: 0;
     width: 110px;
+}
+
+/* End Section 1 */
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.s2-image img {
+    width: 100px;
 }
