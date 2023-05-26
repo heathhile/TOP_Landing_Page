@@ -157,7 +157,14 @@ a:active {
 
 .s2-image img:hover {
     transform: scale(1.5);
+    transition: 350ms ease-out;
 }
+
+.s2-image img:not(hover) {
+    transform: scale(1);
+    transition: 350ms ease-out;
+}
+
 
 /* Start Section 3 */
 
