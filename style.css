@@ -122,16 +122,22 @@ a:active {
 
 /* End Section 1 */
 
-.section2 {
-    border: solid red;
-    text-align: center;
+/* Stat Section 2 */
 
+.section2 {
+    /* border: solid red; */
+    text-align: center;
+}
+
+.section2 h2 {
+    font-size: 36px;
 }
 
 .sub_section2 {
-    border: solid green;
+    /* border: solid green; */
     display: flex;
     padding: 50px;
+    justify-content: center;
 }
 
 .sub_section2 figure {
@@ -151,5 +157,54 @@ a:active {
 
 .s2-image img:hover {
     transform: scale(1.5);
+}
 
+/* Start Section 3 */
+
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.quote_container > p {
+    /* border: solid orange; */
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    justify-content: center;
+    width: 700px;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.thor {
+    /* border: solid 3px; */
+    width: 700px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;   
+}
+
+/* End Section 3 */
+
+/* Start Footer */
+
+.call_to_action {
+    border: solid orange;
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+}
+
+.cta_button {
+    background-color: var(--buttonColor);
+    color: #e5e7eb;
+    display: block;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border: 0;
+    width: 50%;
 }
