@@ -40,7 +40,8 @@ header {
     font-weight: bold;
     display: block;
     margin: auto;
-    text-align: center;
+    text-align: left;
+    margin-left: 190px;
 
 }
 
@@ -49,8 +50,11 @@ header {
     flex: 1;
     margin: auto;
     font-family: var(--fontFamily);
-    display: block;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
     padding: .5rem 1rem;
+    
 }
 
 
