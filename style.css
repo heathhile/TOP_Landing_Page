@@ -38,10 +38,11 @@ header {
     flex: 1;
     font-family: var(--fontFamily);
     font-weight: bold;
-    display: block;
+    display: flex;
+    justify-content: space-around;
     margin: auto;
-    text-align: left;
-    margin-left: 190px;
+
+
 
 }
 
