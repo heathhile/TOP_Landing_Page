@@ -205,35 +205,38 @@ a:active {
 /* End Section 3 */
 
 /* Start Footer */
-.wrapper {
-    border: solid orange 10px;
-    width: 70%;
-    height: 300px;
+.section_4 {
+    /* border: solid orange 10px; */
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 50px;
 }
 
-.wrapper div {
+.section_4 div {
     background-color: var(--buttonColor);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 
-.cta, .button_div {
-    flex: 1;
-    padding: 30px;
-    border-radius: 8px;
-    margin: 100px auto;
+.section_4 div .cta {
+    display: flex;
+    flex-direction: column;
     color: #f9FaF8;
-
+    flex: 3;
 }
 
-.cta p {
-    margin: 0px;
+.section_4 div div {
+    margin: 50px;
+    flex: 1.5;
 }
-
 
 .button {
     border: 2px solid #f9FaF8;
