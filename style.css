@@ -29,13 +29,11 @@ header {
 header {
     color: #f9FaF8;
     width: 100%;
-    /* border: solid yellow; */
     display: flex;
     padding: 20px;
 }
 
 .headerLogo {
-    /* border: solid red; */
     font-size: 24px;
     flex: 1;
     font-family: var(--fontFamily);
@@ -47,7 +45,6 @@ header {
 }
 
 .headerLinks {
-    /* border: solid green; */
     font-size: 18px;
     flex: 1;
     margin: auto;
@@ -68,12 +65,10 @@ a:active {
 
 /* End Header */
 
-
 /* Start section 1 */
 
 .section1 {
     background-color: var(--darkBackground);
-    /* border: solid orange 5px; */
     gap: 70px;
     display: flex;
     justify-content: center;
@@ -92,14 +87,12 @@ a:active {
     font-size: 48px;
     color: #f9FaF8;
     font-weight: 900;
-    /* border: solid red; */
     font-family: var(--fontFamily);
 }
 
 .image img {
     width: 400px;
     height: auto;
-    /* border: solid green; */
 }
 
 .awesome p {
@@ -107,7 +100,6 @@ a:active {
     color: #e5e7eb;
     margin-bottom: 1em;
     font-family: var(--fontFamily);
-    /* border: solid yellow; */
 }
 
 .button {
@@ -132,7 +124,6 @@ a:active {
 /* Stat Section 2 */
 
 .section2 {
-    /* border: solid red; */
     text-align: center;
 }
 
@@ -141,7 +132,6 @@ a:active {
 }
 
 .sub_section2 {
-    /* border: solid green; */
     display: flex;
     padding: 50px;
     justify-content: center;
@@ -184,7 +174,6 @@ a:active {
 }
 
 .quote_container>p {
-    /* border: solid orange; */
     font-size: 30px;
     font-weight: lighter;
     font-style: italic;
@@ -195,7 +184,6 @@ a:active {
 }
 
 .thor {
-    /* border: solid 3px; */
     width: 700px;
     font-size: 20px;
     font-weight: bold;
@@ -204,8 +192,9 @@ a:active {
 
 /* End Section 3 */
 
+/* Start Section 4 */
+
 .section_4 {
-    /* border: solid orange 10px; */
     margin: auto;
     display: flex;
     align-items: center;
@@ -253,7 +242,3 @@ footer {
     color: #e5e7eb;
     padding: 30px;
 }
-/* 
-footer span {
-    padding-bottom: 20px;
-} */
