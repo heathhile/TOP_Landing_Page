@@ -204,7 +204,6 @@ a:active {
 
 /* End Section 3 */
 
-/* Start Footer */
 .section_4 {
     /* border: solid orange 10px; */
     margin: auto;
@@ -241,3 +240,20 @@ a:active {
 .button {
     border: 2px solid #f9FaF8;
 }
+
+
+/* Start Footer */
+
+footer {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkBackground);
+    color: #e5e7eb;
+    padding: 30px;
+}
+/* 
+footer span {
+    padding-bottom: 20px;
+} */
