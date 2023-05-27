@@ -21,10 +21,10 @@ body {
 
 }
 
-header,
-footer {
+header {
     background-color: var(--darkBackground);
 }
+
 
 header {
     color: #f9FaF8;
@@ -111,13 +111,20 @@ a:active {
 }
 
 .button {
+    flex: 0 1 auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-bottom: 2px;
     background-color: var(--buttonColor);
-    color: #e5e7eb;
-    display: block;
-    padding: 10px 30px 10px 30px;
-    border-radius: 8px;
-    border: 0;
-    width: 110px;
+}
+
+.button:hover {
+    background-color: #f9FaF8;
+    color: var(--buttonColor);
 }
 
 /* End Section 1 */
@@ -176,7 +183,7 @@ a:active {
     padding: 40px;
 }
 
-.quote_container > p {
+.quote_container>p {
     /* border: solid orange; */
     font-size: 30px;
     font-weight: lighter;
@@ -192,26 +199,42 @@ a:active {
     width: 700px;
     font-size: 20px;
     font-weight: bold;
-    text-align: right;   
+    text-align: right;
 }
 
 /* End Section 3 */
 
 /* Start Footer */
-
-.call_to_action {
-    border: solid orange;
-    background-color: #fff;
-    padding: 40px;
+.wrapper {
+    border: solid orange 10px;
+    width: 70%;
+    height: 300px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-.cta_button {
+.wrapper div {
     background-color: var(--buttonColor);
-    color: #e5e7eb;
-    display: block;
-    padding: 10px 30px 10px 30px;
+}
+
+
+.cta, .button_div {
+    flex: 1;
+    padding: 30px;
     border-radius: 8px;
-    border: 0;
-    width: 50%;
+    margin: 100px auto;
+    color: #f9FaF8;
+
+}
+
+.cta p {
+    margin: 0px;
+}
+
+
+.button {
+    border: 2px solid #f9FaF8;
 }
